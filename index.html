@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess what my Computer Thinks</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">.jumbotron {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
+	</style>
+</head>
+<body>
+<div class="jumbotron">
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="thumbnail">
+      <img src="assets/images/Guess.png" alt="...">
+      <div class="caption">
+        <div class="alert alert-success" role="alert"><p id='Wins' >Wins:</p></div>
+		<div class="alert alert-danger" role="alert"><p  id='Loss' class="text-danger">Losses:</p></div>
+		<p  id='Retry'>Guesses Left:</p>
+		<p  id='Guesses'>Guesses So Far:</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js">
+</script>
+</html>
